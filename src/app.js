@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import accountsRouter from "../routes/accountsRouter.js";
-require("dotenv").config();
+//require("dotenv").config();
 
 // Banco no Atlas
 // const URL = `mongodb+srv://${process.env.USERDB}:${process.env.PASSDB}@api-test-iiinl.mongodb.net/igti-my-bank?retryWrites=true&w=majority`;
